@@ -1,24 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
+import Product from './pages/Product';
 import './App.css';
+import kumi from './attachments/kumi kumi necklace.PNG';
+import pendo from './attachments/pendo stud earrings.PNG';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <Product name ="Kumi Kumi Necklace" description="Brass and cowhorn pendant necklace" price="KES 800" image={kumi} />
+      <Product name ="Pendo Stud Earrings" description="Cowhorn and brass stud earrings" price="KES 650" image={pendo} />
     </div>
   );
 }

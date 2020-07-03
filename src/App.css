@@ -1,38 +1,36 @@
-.App {
+@import url('https://fonts.googleapis.com/css?family=Lato|Prata&display=swap');
+
+.app {
   text-align: center;
+  color: #36270a;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.product {
+  background:  linear-gradient(to left,#9e722f6e, #9e722f7f);
+  height: auto;
+  margin: 80px auto 0px auto;
+  min-height: 100px;
+  padding: 30px 30px;
+  margin: 0em;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h3 {
+  font-Family: 'Prata', Serif;
+  font-size: 48px;
+  letter-spacing: 0.01em;
+  line-height: 0em;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+p {
+  font-Family: 'Prata', Sans-Serif;
+  font-Size: 16px;
+  
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+h6 {
+  font-Family: 'Prata', Sans-Serif;
+  font-Size: 20px;
+  font-weight: lighter;
+  line-height: 3em;
+  
 }
