@@ -8,7 +8,7 @@ import Rings from './pages/Rings.js';
 import SignetRings from './pages/SignetRings.js';
 import PersonalizedBracelets from './pages/PersonalizedBracelets.js';
 import Navigation from './pages/Navigation';
-import SocialMenu from './pages/SocialMenu';
+
 
 
 function App() {
@@ -26,7 +26,6 @@ function App() {
       <Route path="/signetrings" exact component={SignetRings}/>
       <Route path="/personalizedbracelets" exact component={PersonalizedBracelets}/>
       </Switch>
-      <SocialMenu />
     </div>
     </Router>
   );

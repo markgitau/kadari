@@ -7,6 +7,7 @@ function Earrings (){
     return(
         <div>
             <Product name ="Pendo Stud Earrings" description="Cowhorn and brass stud earrings" price="KES 650" image={pendo} />
+            <Product name ="Pendo Stud Earrings" description="Cowhorn and brass stud earrings" price="KES 650" image={pendo} />
         </div>
     );
 }

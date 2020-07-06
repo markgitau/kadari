@@ -1,16 +1,19 @@
 @import url('https://fonts.googleapis.com/css?family=Lato|Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 .app {
-  text-align: center;
-  color: #36270a;
-  background-color: #dad6cf;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
 
 .product {
+  
+  
   background:  linear-gradient(to left,#9e722f6e, #9e722f7f);
   height: auto;
   margin: 80px auto 0px auto;
-  min-height: 100px;
+  min-height: 100vh;
   padding: 30px 30px;
   margin: 0em;
 }
@@ -34,4 +37,50 @@ h6 {
   font-weight: lighter;
   line-height: 3em;
   
+}
+
+.nav-links {
+
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  text-transform: uppercase;
+  font-family: 'Poppins', sans-serif;
+
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  min-height: 12vh;
+  background:  linear-gradient(to right,#9e722f6e, #9e722f7f);
+  align-items: center;
+  margin: 0vh;
+}
+
+.nav-links li {
+  color: rgb(63, 44, 4);
+  text-decoration: none;
+
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+
+a:hover {
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-color: rgb(49, 31, 8);
+  animation-duration: inherit;
+}
+
+a:active {
+  text-decoration: none;
 }

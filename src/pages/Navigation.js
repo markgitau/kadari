@@ -1,12 +1,15 @@
 import React from 'react';
 import '../App.css';
 import {Link} from 'react-router-dom';
+import SocialMenu from './SocialMenu.js';
 
 function Navigation () {
     return (
     <nav>
     <div className="logo">
-        
+        <Link to="/">
+        Kadari
+        </Link>
     </div>
     <ul className="nav-links">
         <Link to="/earrings">
@@ -27,6 +30,7 @@ function Navigation () {
         <Link to="/personalizedbracelets">
             <li>Personalized Bracelets</li>
         </Link>
+        <SocialMenu />
         
     </ul>
     </nav>
