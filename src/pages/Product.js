@@ -2,20 +2,27 @@ import React from 'react';
 import '../App.css';
 
 
-function Product({name, description, price, image}) {
+function Product({category, name, description, price, image}) {
     return (
-    <div className="product">
-        <h3>{name}</h3>
-        <h6>
+    <div className="product" category={category}>
+
+        <h3 type="name">
+            {name}
+        </h3>
+
+        <p type="description">
             {description}
-        </h6>
+        </p>
+
         <img src={image} alt={name}/>
-        <p>
+
+        <p type="price">
             {price}
         </p>
 
     </div>
     );
 }
+
 
 export default Product;
