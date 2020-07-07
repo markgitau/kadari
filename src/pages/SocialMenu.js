@@ -7,7 +7,7 @@ function SocialMenu (){
     return (
         <div className="social-menu">
             <a href="https://www.instagram.com/cindykadari/" className="instagram-link">
-                <FontAwesomeIcon icon={faInstagram} size="2x" color="rgb(63, 44, 4)"/>
+                <FontAwesomeIcon icon={faInstagram} size="100%" color="rgb(63, 44, 4)"/>
             </a>
         </div>
     );

@@ -6,12 +6,10 @@ import SocialMenu from './SocialMenu.js';
 function Navigation () {
     return (
     <nav>
-    <div className="logo">
-        <Link to="/">
-        Kadari
-        </Link>
-    </div>
     <ul className="nav-links">
+        <Link to="/" >
+            <li>Home</li>
+        </Link>
         <Link to="/earrings">
             <li>Earrings</li>
         </Link>

@@ -8,6 +8,7 @@ import Rings from './pages/Rings.js';
 import SignetRings from './pages/SignetRings.js';
 import PersonalizedBracelets from './pages/PersonalizedBracelets.js';
 import Navigation from './pages/Navigation';
+import Home from './pages/Home';
 
 
 
@@ -19,6 +20,7 @@ function App() {
       
       <Navigation />
       <Switch>
+      <Route path="/" exact component={Home}/>
       <Route path="/earrings" exact component={Earrings}/>
       <Route path="/necklaces" exact component={Necklaces}/>
       <Route path="/bracelets" exact component={Bracelets}/>
