@@ -9,7 +9,7 @@
 
 .product {
   
-  
+  top:auto;
   background:  linear-gradient(to left,#9e722f6e, #9e722f7f);
   height: auto;
   margin: 80px auto 0px auto;
@@ -52,6 +52,10 @@ h6 {
 
 nav {
   display: flex;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
   justify-content: space-around;
   min-height: 12vh;
   background:  linear-gradient(to right,#9e722f6e, #9e722f7f);
@@ -60,13 +64,16 @@ nav {
 }
 
 .nav-links li {
+  display: block;
   color: rgb(63, 44, 4);
   text-decoration: none;
 
 }
 
+
 a:link {
   text-decoration: none;
+
 }
 
 a:visited {
@@ -75,10 +82,13 @@ a:visited {
 
 
 a:hover {
-  text-decoration: underline;
-  text-decoration-style: solid;
-  text-decoration-color: rgb(49, 31, 8);
-  animation-duration: inherit;
+  font-size: 17px;
+  transition: all .6s ease;
+}
+
+a:not(:hover) {
+  font-size: 18px;
+  transition: all .6s ease;
 }
 
 a:active {
