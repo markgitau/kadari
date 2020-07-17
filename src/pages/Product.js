@@ -2,9 +2,9 @@ import React from 'react';
 import '../App.css';
 
 
-function Product({category, name, description, price, image}) {
+function Product({className, name, description, price, image}) {
     return (
-    <div className="product" category={category}>
+    <div className={className}>
 
         <h3 type="name">
             {name}

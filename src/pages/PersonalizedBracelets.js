@@ -1,13 +1,17 @@
 import React from 'react';
 import Product from './Product.js';
 import '../App.css';
-import kumi from '../attachments/kumi kumi necklace.PNG';
+import Introduction from './Introduction';
+import ukariri from '../attachments/ukariri-mantra-bracelet.jpg';
+
+
+
 
 function PersonalizedBracelets (){
     return(
-        <div>
-            <Product category="necklace" name ="Kumi Kumi Necklace person" 
-            description="Brass and cowhorn pendant necklace" price="KES 800" image={kumi} />
+        <div style={{marginTop: '60px'}}>
+            <Introduction className="personalized-intro" name="Personalized" intro="Custom jewelry" extra="Made just for you." />
+            <Product classname="ukariri" name ="Ukariri Mantra Bracelet" description="Brass cuff bracelet engraved with your favorite mantra" price="KES 1200" image={ukariri} />
         </div>
     );
 }

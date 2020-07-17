@@ -1,25 +1,16 @@
 import React from 'react';
 import '../App.css';
 import {Link} from 'react-router-dom';
-import Button from './Button';
 
 
-const Navigation = props => (
-
-    
-    <header className="toolbar">
-        <div className="mobile">      
-            <div className="space"></div>
-            <div className="logo">
-                <Link to="/" >
-                    <p>KADARI JEWELRY</p>
-                </Link>
-            </div>
-            <div className="space"></div>
-            <Button click={props.drawerClickHandler} show={props.show}/>
-        </div>
+const SideDrawer = props => {
+    let drawerClasses = 'drawer-links';
+    if (props.show){
+        drawerClasses = 'drawer-links open';
+    }
+    return (
         <nav>
-            <ul className="nav-links">
+            <ul className={drawerClasses} onClick={props.click}>
                 <Link to="/" >
                     <li>Home</li>
                 </Link>
@@ -43,9 +34,9 @@ const Navigation = props => (
                 </Link>
                 
             </ul>
-        </nav>
-    </header>
-    
-)
 
-export default Navigation;
+        </nav>
+    );
+};
+
+export default SideDrawer;

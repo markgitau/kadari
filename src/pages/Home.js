@@ -1,10 +1,17 @@
 import React from 'react';
 import '../App.css';
 import Introduction from './Introduction';
+import SocialMenu from './SocialMenu.js';
 
 function Home (){
     return (
-        <Introduction name="Kadari Jewelry" intro="Bling it on!" extra="Timeless and tasteful jewelry" />
+        <main className="home" style={{paddingTop: '60px'}}>
+            <Introduction className="home-intro" name="Kadari Jewelry" intro="Bling it on!" extra="Hand made timeless and tasteful jewelry." />
+            <div className="space" />
+            <SocialMenu />
+
+        </main>
+        
     );
 }
 

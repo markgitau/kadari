@@ -1,9 +1,9 @@
 import React from 'react';
 import '../App.css';
 
-function Introduction ({name, intro, extra}){
+function Introduction ({className, name, intro, extra}){
     return(
-        <div className="introduction">
+        <div className={className}>
             <h2>
                 {name}
             </h2>

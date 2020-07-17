@@ -1,13 +1,13 @@
 import React from 'react';
-import Product from './Product.js';
 import '../App.css';
-import kumi from '../attachments/kumi kumi necklace.PNG';
+import Introduction from './Introduction';
+
 
 function SignetRings (){
     return(
-        <div>
-            <Product category="necklace" name ="Kumi Kumi Necklacesignet" 
-            description="Brass and cowhorn pendant necklace" price="KES 800" image={kumi} />            
+        <div style={{marginTop: '60px'}}>
+            <Introduction className="signet-intro" name="Signet Rings" intro="Hand made Signet Rings" extra="." />
+       
         </div>
     );
 }
