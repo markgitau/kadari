@@ -1,17 +1,21 @@
+body {
+  margin: 0;
+  padding: 0;
+}
 
 .toolbar {
   top: 0;
   left: 0;
   position: fixed;
   width: 100%;
-  background: rgba(102, 86, 56, 0.411);
-  height: 60px;
+  background: rgba(83, 71, 47, 0.534);
+  height: 7.957559681697613vh;
 
 }
 
 .nav-links {
   display: flex;
-  height: 60px;
+  height: 7.957559681697613vh;
   width: 100%;
   justify-content: space-around;
   list-style: none;
@@ -48,7 +52,7 @@
 }
 
 .burger.open {
-  color: rgba(102, 86, 56, 0.411);
+  color: rgba(102, 86, 56, 0);
   transition: color 0.4s ease-in;
 }
 .burger {
@@ -68,7 +72,7 @@
 
 .drawer-links {
   height: 100%;
-  background: rgba(143, 120, 79, 0.596);
+  background: rgba(160, 153, 139, 0.336);
   box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.5);
   position: fixed;
   margin: 0;
@@ -108,7 +112,7 @@
   padding: 0;
   width: 100%;
   height:100%;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.2);
   z-index: 100;
   transition: background-color 0.4s ease-out;
 }
@@ -132,7 +136,8 @@
 }
 
 .home {
-  background-image: url("./attachments/background-image.png");
+  background-image: url("./attachments/IMG_9150-compressed.CR2"); 
+  background-size: cover;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -140,7 +145,7 @@
 }
 
 .social-menu {
-  padding-bottom: 40px;
+  padding-bottom: 10vh;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -149,13 +154,18 @@
 .social-menu a {
   padding-left: 15px;
   padding-right: 15px;
+  color: rgb(153, 145, 134);
 }
 
 .social-menu a:hover {
-  font-size: 120%;
-  transition: font-size 0.3s ease-in;
+  transform: translateY(-2px);
+  transition: transform 0.3s ease-in;
 }
 .social-menu a:not(:hover) {
-  font-size: 100%;
-  transition: font-size 0.3s ease-out;
+  transform: translateY(2px);
+  transition: transform 0.3s ease-out;
+}
+
+.home-intro {
+  color: whitesmoke;
 }

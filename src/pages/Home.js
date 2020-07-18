@@ -5,7 +5,7 @@ import SocialMenu from './SocialMenu.js';
 
 function Home (){
     return (
-        <main className="home" style={{paddingTop: '60px'}}>
+        <main className="home">
             <Introduction className="home-intro" name="Kadari Jewelry" intro="Bling it on!" extra="Hand made timeless and tasteful jewelry." />
             <div className="space" />
             <SocialMenu />
