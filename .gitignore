@@ -14,6 +14,7 @@
 # misc
 node_modules
 /node_modules
+joanna
 .DS_Store
 .env.local
 .env.development.local
