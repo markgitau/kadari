@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ovo&display=swap");
+
 body {
   margin: 0;
   padding: 0;
@@ -125,6 +128,29 @@ body {
   .nav-links {
     display: none;
   }
+  [type="earrings-intro"] {
+    background-image: url("./attachments/WhatsApp\ Image\ 2019-01-11\ at\ 13.05.11\ \(1\).jpeg");
+  }
+  
+  [type="bracelets-intro"] {
+    background-image: url("./attachments/WhatsApp\ Image\ 2019-01-11\ at\ 13.03.41\ \(2\).jpeg");
+  }
+  
+  [type="necklaces-intro"] {
+    background-image: url("./attachments/kumi-kumi-necklace.PNG");
+  }
+  
+  [type="signet-intro"] {
+    background-image: url("./attachments/amani-ring.PNG");
+  }
+  
+  [type="personalized-intro"] {
+    background-image: url("./attachments/ukariri-mantra-bracelet.jpg");
+  }
+  
+  [type="rings-intro"] {
+    background-image: url("./attachments/amani-ring.PNG");
+  }
 
 }
 
@@ -132,16 +158,42 @@ body {
   .mobile {
     display: none;
   }
+
+  [type="earrings-intro"] {
+    background-image: url("./attachments/WhatsApp\ Image\ 2019-01-11\ at\ 13.05.11\ \(1\).jpeg");
+  }
+  
+  [type="bracelets-intro"] {
+    background-image: linear-gradient(rgba(25, 66, 66, 0.521), rgba(67, 165, 172, 0.705));
+  }
+  
+  [type="necklaces-intro"] {
+    background-image: linear-gradient();
+  }
+  
+  [type="signet-intro"] {
+    background-image: linear-gradient();
+  }
+  
+  [type="personalized-intro"] {
+    background-image: linear-gradient();
+  }
+  
+  [type="rings-intro"] {
+    background-image: linear-gradient();
+  }
   
 }
 
 .home {
-  background-image: url("./attachments/IMG_9150-compressed.CR2"); 
+  background-image: url("./attachments/IMG_9150-compressed.png"); 
   background-size: cover;
   height: 100vh;
   display: flex;
   flex-direction: column;
   overflow: hidden;
+  justify-content: center;
+  align-items: center;
 }
 
 .social-menu {
@@ -166,6 +218,52 @@ body {
   transition: transform 0.3s ease-out;
 }
 
-.home-intro {
+[type$="-intro"] {
   color: whitesmoke;
+  font-family: 'Ovo', serif;
+  font-weight: lighter;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+.header {
+  font-size: 250%;
+}
+
+.intro, .extra {
+  font-family: 'Questrial', sans-serif;
+  font-size: 60%;
+  font-weight: lighter;
+}
+.intro {
+  font-size: 70%;
+}
+
+img {
+  max-width: 70%;
+  max-height: 70vh;
+  height: auto;
+}
+
+.mobile-header {
+  font-family: 'Ovo', serif;
+  font-weight: lighter;
+  font-size: 190%;
+  color: rgb(192, 163, 127);
+}
+
+a:link {
+  text-decoration: none;
+
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
 }

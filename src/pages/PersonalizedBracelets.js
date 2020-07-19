@@ -9,8 +9,8 @@ import ukariri from '../attachments/ukariri-mantra-bracelet.jpg';
 
 function PersonalizedBracelets (){
     return(
-        <div style={{marginTop: '60px'}}>
-            <Introduction className="personalized-intro" name="Personalized" intro="Custom jewelry" extra="Made just for you." />
+        <div>
+            <Introduction type="personalized-intro" name="Personalized" intro="Custom jewelry" extra="Made just for you." />
             <Product classname="ukariri" name ="Ukariri Mantra Bracelet" description="Brass cuff bracelet engraved with your favorite mantra" price="KES 1200" image={ukariri} />
         </div>
     );

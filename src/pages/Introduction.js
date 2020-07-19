@@ -1,12 +1,12 @@
 import React from 'react';
 import '../App.css';
 
-function Introduction ({className, name, intro, extra}){
+function Introduction ({type, name, intro, extra}){
     return(
-        <div className={className}>
-            <h2 style={{paddingTop: '60px'}}>
+        <div type={type}>
+            <p className="header" style={{paddingTop: '60px'}}>
                 {name}
-            </h2>
+            </p>
             <p className="intro">
                 {intro}
             </p>

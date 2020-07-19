@@ -1,5 +1,5 @@
 {
-  "homepage": "http://markgitau.github.io/kadari",
+  "homepage": "https://markgitau.github.io/kadari",
   "name": "kadari",
   "version": "0.1.0",
   "private": true,
@@ -13,6 +13,7 @@
     "@testing-library/user-event": "^7.2.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
+    "react-fontawesome": "^1.7.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.1"
   },

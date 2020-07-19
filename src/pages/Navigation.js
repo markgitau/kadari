@@ -12,7 +12,7 @@ const Navigation = props => (
             <div className="space"></div>
             <div className="logo">
                 <Link to="/" >
-                    <p>KADARI JEWELRY</p>
+                    <p className="mobile-header">KADARI</p>
                 </Link>
             </div>
             <div className="space"></div>
