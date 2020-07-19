@@ -397,6 +397,7 @@ a:active {
   font-family: 'Questrial', sans-serif;
   color: rgb(56, 46, 34);
   padding-bottom: 13px;
+  letter-spacing: 0em;
 }
 
 [type="price"] {
