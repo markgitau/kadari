@@ -4,7 +4,7 @@ import '../App.css';
 
 function Product({className, name, description, price, image}) {
     return (
-    <div className={className}>
+    <div className={className} style={{paddingTop: "20px"}}>
 
         <h3 type="name">
             {name}

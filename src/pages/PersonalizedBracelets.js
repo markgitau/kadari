@@ -11,7 +11,9 @@ function PersonalizedBracelets (){
     return(
         <div>
             <Introduction type="personalized-intro" name="Personalized" intro="Made just for you." />
-            <Product classname="ukariri" name ="Ukariri Mantra Bracelet" description="Brass cuff bracelet engraved with your favorite mantra" price="KES 1200" image={ukariri} />
+            <div className="personalized">
+                <Product classname="ukariri" name ="Ukariri Mantra Bracelet" description="Brass cuff bracelet engraved with your favorite mantra" price="KES 1200" image={ukariri} />
+            </div>
         </div>
     );
 }

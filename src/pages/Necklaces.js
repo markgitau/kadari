@@ -13,9 +13,11 @@ function Necklaces(){
     return (
         <div className="necklaces">
             <Introduction type="necklaces-intro" name="Necklaces" intro="Look different." />
-            <Product className="giriama" name ="Giriama Pendant Necklace" description="Brass Pendant Necklace" price="KES 1800" image={giriama} />
-            <Product className="kumi" name ="Kumi Kumi Necklace" description="Brass and cowhorn pendant necklace" price="KES 1050" image={kumi} />
-            <Product className="tachonyi" name ="Tachonyi Set" description="Brass Studs and Choker" price="KES 1200" image={tachonyi} />
+            <div className="necklaces">
+                <Product className="giriama-necklaces" name ="Giriama Pendant Necklace" description="Brass Pendant Necklace" price="KES 1800" image={giriama} />
+                <Product className="kumi-necklaces" name ="Kumi Kumi Necklace" description="Brass and cowhorn pendant necklace" price="KES 1050" image={kumi} />
+                <Product className="tachonyi-necklaces" name ="Tachonyi Set" description="Brass Studs and Choker" price="KES 1200" image={tachonyi} />
+            </div>
         </div>
     );
 }

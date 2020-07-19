@@ -20,20 +20,21 @@ function Earrings (){
     return(
         <div>
             <Introduction type="earrings-intro" name="Earrings" intro="Find your perfect pair."/>
-            <div className="overlays"/>
-            <Product className="pendo" name ="Pendo Stud Earrings" description="Cowhorn and brass stud earrings" price="KES 650" image={pendo} />
-            <Product className="duara" name ="Duara Earrings" description="Brass earrings" price="KES 650" image={duara} />
-            <Product className="fahari" name ="Fahari Earrings" description="Brass earrings" price="KES 800" image={fahari} />
-            <Product className="kadee" name ="Kadee Earrings" description="Brass earrings" price="KES 800" image={kadee} />
-            <Product className="lazi" name ="Lazi Earrings" description="Brass earrings" price="KES 500" image={lazi} />
-            <Product className="libra" name ="Libra Earrings" description="Cowhorn and Textured Brass earrings" price="KES 700" image={libra} />
-            <Product className="matatu" name ="Matatu Earrings" description="Brass earrings" price="KES 650" image={matatu} />
-            <Product className="nami" name ="Nami Earrings" description="Brass earrings" price="KES 650" image={nami} />
-            <Product className="njoki" name ="Njoki Studs" description="Brass studs" price="KES 500" image={njoki} />
-            <Product className="sifa" name ="Sifa Earrings" description="Brass earrings" price="KES 650" image={sifa} />
-            <Product className="simba" name ="Simba Earrings" description="Brass earrings" price="KES 800" image={simba} />
-            <Product className="tawi" name ="Tawi Earrings" description="Brass earrings" price="KES 650" image={tawi} />
-            <Product className="tumaini" name ="Tumainini Earrings" description="Black cowhorn and Brass earrings" price="KES 650" image={tumaini} />
+            <div className="earrings">
+                <Product className="pendo-earrings" name ="Pendo Stud Earrings" description="Cowhorn and brass stud earrings" price="KES 650" image={pendo} />
+                <Product className="duara-earrings" name ="Duara Earrings" description="Brass earrings" price="KES 650" image={duara} />
+                <Product className="fahari-earrings" name ="Fahari Earrings" description="Brass earrings" price="KES 800" image={fahari} />
+                <Product className="kadee-earrings" name ="Kadee Earrings" description="Brass earrings" price="KES 800" image={kadee} />
+                <Product className="lazi-earrings" name ="Lazi Earrings" description="Brass earrings" price="KES 500" image={lazi} />
+                <Product className="libra-earrings" name ="Libra Earrings" description="Cowhorn and Textured Brass earrings" price="KES 700" image={libra} />
+                <Product className="matatu-earrings" name ="Matatu Earrings" description="Brass earrings" price="KES 650" image={matatu} />
+                <Product className="nami-earrings" name ="Nami Earrings" description="Brass earrings" price="KES 650" image={nami} />
+                <Product className="njoki-earrings" name ="Njoki Studs" description="Brass studs" price="KES 500" image={njoki} />
+                <Product className="sifa-earrings" name ="Sifa Earrings" description="Brass earrings" price="KES 650" image={sifa} />
+                <Product className="simba-earrings" name ="Simba Earrings" description="Brass earrings" price="KES 800" image={simba} />
+                <Product className="tawi-earrings" name ="Tawi Earrings" description="Brass earrings" price="KES 650" image={tawi} />
+                <Product className="tumaini-earrings" name ="Tumainini Earrings" description="Black cowhorn and Brass earrings" price="KES 650" image={tumaini} />
+            </div>
         </div>
     );
 }

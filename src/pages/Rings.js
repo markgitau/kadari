@@ -9,8 +9,10 @@ function Rings (){
     return(
         <div>
             <Introduction type="rings-intro" name="Rings" intro="Style with precious simplicity." />
-            <Product className="amani" name ="Amani Ring" description="Brass Ring" price="KES 500" image={amani} />
-            <Product className="nafula" name ="Nafula Ring" description="Brass ring with textured finish" price="KES 600" image={nafula} />
+            <div className="rings">
+                <Product className="amani-rings" name ="Amani Ring" description="Brass Ring" price="KES 500" image={amani} />
+                <Product className="nafula-rings" name ="Nafula Ring" description="Brass ring with textured finish" price="KES 600" image={nafula} />
+            </div>
         </div>
     );
 }

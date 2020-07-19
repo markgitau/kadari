@@ -2,9 +2,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Ovo&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
-body {
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  text-align: center;
 }
 
 .toolbar {
@@ -39,6 +41,15 @@ body {
   font-family: 'Questrial', sans-serif;
 }
 
+.nav-links a:hover {
+  transform: translateY(-1px);
+  transition: transform 0.5s ease-in;
+}
+.nav-links a:not(:hover) {
+  transform: translateY(1px);
+  transition: transform 0.5s ease-out;
+}
+
 .mobile  {
   display: flex;
   height: 100%;
@@ -66,7 +77,7 @@ body {
   transition: color 0.4s ease-in;
 }
 .burger {
-  color: rgb(63, 44, 4);
+  color: rgb(255, 250, 241);
   transition: color 0.4s ease-in;
   
 }
@@ -159,7 +170,7 @@ body {
   }
   
   [type="bracelets-intro"] {
-    background-image: url("./attachments/WhatsApp\ Image\ 2019-01-11\ at\ 13.03.41\ \(2\).jpeg");
+    background-image: url("./attachments/IMG_9150-compressed.png");
   }
   
   [type="necklaces-intro"] {
@@ -252,6 +263,7 @@ body {
 }
 
 [type$="-intro"] {
+  margin-bottom: 0;
   width: 100%;
   padding-top: 60px;
   color: rgb(255, 250, 241);
@@ -341,4 +353,56 @@ a:active {
   .social-menu{
     padding-bottom: 5vh;
   }
+}
+
+[class$="earrings"] {
+  margin-top: 0;
+  padding: 0;
+  background: rgb(168, 151, 119);
+}
+
+[class$="bracelets"] {
+  margin-top: 0;
+  padding: 0;
+  background: rgb(134, 123, 93);
+}
+
+[class$="necklaces"] {
+  margin-top: 0;
+  padding: 0;
+  background: rgb(134, 125, 105);
+}
+
+[class$="personalized"] {
+  margin-top: 0;
+  padding: 0;
+  background: rgb(134, 125, 105);
+}
+
+[class$="rings"] {
+  margin-top: 0;
+  padding: 0;
+  background: rgb(168, 151, 119);
+}
+
+[type="name"] {
+  font-size: 180%;
+  font-family: 'Ovo', serif;
+  color: rgb(56, 46, 34);
+  padding-bottom: 8px;
+}
+
+[type="description"] {
+  font-size: 110%;
+  font-family: 'Questrial', sans-serif;
+  color: rgb(56, 46, 34);
+  padding-bottom: 13px;
+}
+
+[type="price"] {
+  font-size: 120%;
+  font-family: 'Questrial', sans-serif;
+  color: rgb(56, 46, 34);
+  padding-bottom: 8px;
+  padding-top: 8px;
 }
