@@ -7,7 +7,7 @@ function Home (){
     return (
         <main className="home">
             <div className="overlay"/>
-            <Introduction type="home-intro" name="Bling it on!" intro="Ethically inspired, hand-made, timeless, and tasteful jewelry." />
+            <Introduction type="home-intro" name="Bling it on!" intro="Ethnically inspired, hand-made, timeless, and tasteful jewelry." />
             <div className="space" />
             <SocialMenu />
 
