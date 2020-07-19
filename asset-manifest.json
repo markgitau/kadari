@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/kadari/static/css/main.a677bfb9.chunk.css",
-    "main.js": "/kadari/static/js/main.cb77a7ef.chunk.js",
-    "main.js.map": "/kadari/static/js/main.cb77a7ef.chunk.js.map",
+    "main.js": "/kadari/static/js/main.8d91ffbb.chunk.js",
+    "main.js.map": "/kadari/static/js/main.8d91ffbb.chunk.js.map",
     "runtime-main.js": "/kadari/static/js/runtime-main.b637e1e7.js",
     "runtime-main.js.map": "/kadari/static/js/runtime-main.b637e1e7.js.map",
-    "static/js/2.629c1a38.chunk.js": "/kadari/static/js/2.629c1a38.chunk.js",
-    "static/js/2.629c1a38.chunk.js.map": "/kadari/static/js/2.629c1a38.chunk.js.map",
+    "static/js/2.291b4c50.chunk.js": "/kadari/static/js/2.291b4c50.chunk.js",
+    "static/js/2.291b4c50.chunk.js.map": "/kadari/static/js/2.291b4c50.chunk.js.map",
     "index.html": "/kadari/index.html",
-    "precache-manifest.122403561d4b25d67e1d687d6f690409.js": "/kadari/precache-manifest.122403561d4b25d67e1d687d6f690409.js",
+    "precache-manifest.58c94a2e6c18edb5a1e9b4b27e1a5c7d.js": "/kadari/precache-manifest.58c94a2e6c18edb5a1e9b4b27e1a5c7d.js",
     "service-worker.js": "/kadari/service-worker.js",
     "static/css/main.a677bfb9.chunk.css.map": "/kadari/static/css/main.a677bfb9.chunk.css.map",
-    "static/js/2.629c1a38.chunk.js.LICENSE.txt": "/kadari/static/js/2.629c1a38.chunk.js.LICENSE.txt",
+    "static/js/2.291b4c50.chunk.js.LICENSE.txt": "/kadari/static/js/2.291b4c50.chunk.js.LICENSE.txt",
     "static/media/App.css": "/kadari/static/media/IMG_9307-compressed.761c9310.CR2",
     "static/media/amani-ring.PNG": "/kadari/static/media/amani-ring.ed490f51.PNG",
     "static/media/duara-earrings.jpeg": "/kadari/static/media/duara-earrings.47aca2ca.jpeg",
@@ -40,8 +40,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.b637e1e7.js",
-    "static/js/2.629c1a38.chunk.js",
+    "static/js/2.291b4c50.chunk.js",
     "static/css/main.a677bfb9.chunk.css",
-    "static/js/main.cb77a7ef.chunk.js"
+    "static/js/main.8d91ffbb.chunk.js"
   ]
 }

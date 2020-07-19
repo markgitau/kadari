@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7494de62bd161af237bfb7f505dd6603",
+    "revision": "17d112b0fc2a9e8e732ecb59341d7d60",
     "url": "/kadari/index.html"
   },
   {
-    "revision": "bd14cc85df9dff395103",
+    "revision": "c805b7b381add6d1d560",
     "url": "/kadari/static/css/main.a677bfb9.chunk.css"
   },
   {
-    "revision": "54a53809a19a2aab68e1",
-    "url": "/kadari/static/js/2.629c1a38.chunk.js"
+    "revision": "8d7605caf6d44a4052b5",
+    "url": "/kadari/static/js/2.291b4c50.chunk.js"
   },
   {
     "revision": "c64c486544348f10a6d6c716950bc223",
-    "url": "/kadari/static/js/2.629c1a38.chunk.js.LICENSE.txt"
+    "url": "/kadari/static/js/2.291b4c50.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "bd14cc85df9dff395103",
-    "url": "/kadari/static/js/main.cb77a7ef.chunk.js"
+    "revision": "c805b7b381add6d1d560",
+    "url": "/kadari/static/js/main.8d91ffbb.chunk.js"
   },
   {
     "revision": "dae23637a76432a76f7b",
