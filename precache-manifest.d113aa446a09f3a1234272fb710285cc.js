@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "e14c8713b4294275465a2fcb10108a1b",
+    "revision": "f11941cf2429d2f2b30d56947f1f676c",
     "url": "/kadari/index.html"
   },
   {
-    "revision": "960e12df9e0aa2ea6794",
-    "url": "/kadari/static/css/main.2956cf99.chunk.css"
+    "revision": "615e949e901d608b4b05",
+    "url": "/kadari/static/css/main.adcd59e3.chunk.css"
   },
   {
     "revision": "54a53809a19a2aab68e1",
@@ -16,16 +16,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kadari/static/js/2.629c1a38.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "960e12df9e0aa2ea6794",
-    "url": "/kadari/static/js/main.6fda4014.chunk.js"
+    "revision": "615e949e901d608b4b05",
+    "url": "/kadari/static/js/main.0e846d79.chunk.js"
   },
   {
     "revision": "dae23637a76432a76f7b",
     "url": "/kadari/static/js/runtime-main.b637e1e7.js"
   },
   {
-    "revision": "4a3d0619c50e40811efcdffd188083fe",
-    "url": "/kadari/static/media/IMG_9150-compressed.4a3d0619.png"
+    "revision": "761c9310f56b258b4dc8012999779e26",
+    "url": "/kadari/static/media/IMG_9307-compressed.761c9310.CR2"
   },
   {
     "revision": "bc58ad09434d357be2ff35d9396bb05f",
