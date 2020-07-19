@@ -1,10 +1,15 @@
 import React from 'react';
 import '../App.css';
 
-function Introduction ({type, name, intro, extra}){
+function Introduction ({type, name, intro}){
+    let overlay;
+    if (type !== "home-intro"){
+        overlay = "overlays";
+    }
     return(
         <div type={type}>
-            <p className="header" style={{paddingTop: '60px'}}>
+            <div className={overlay} style={{paddingTop: "60px"}}/>
+            <p className="header">
                 {name}
             </p>
             <p className="intro">

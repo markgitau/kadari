@@ -15,6 +15,7 @@ body {
   background: rgba(83, 71, 47, 0.534);
   backdrop-filter: blur(3px);
   height: 7.957559681697613vh;
+  z-index: 300;
 
 }
 
@@ -91,7 +92,7 @@ body {
   max-width: 400px;
   width: 65%;
   padding: 0;
-  z-index: 200;
+  z-index: 400;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -107,6 +108,7 @@ body {
   padding-top: 15px;
   padding-bottom: 15px;
   text-decoration: none;
+  text-align: center;
   list-style: none;
   font-family: 'Questrial', sans-serif;
   color: rgb(24, 18, 9);
@@ -127,7 +129,7 @@ body {
   height:100%;
   background-color: rgba(0, 0, 0, 0.2);
 
-  z-index: 100;
+  z-index: 300;
   transition: background-color 0.4s ease-out;
 }
 
@@ -143,13 +145,17 @@ body {
   .button {
     position: fixed;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
     top: 0;
     right: 0;
     z-index: 400;
+    height: 7.957559681697613vh;
   }
 
   [type="earrings-intro"] {
-    background-image: url("./attachments/WhatsApp\ Image\ 2019-01-11\ at\ 13.05.11\ \(1\).jpeg");
+    background-image: url("./attachments/lazi-earrings.PNG");
+    background-color: rgba(0, 0, 0, 0.5);
   }
   
   [type="bracelets-intro"] {
@@ -184,7 +190,8 @@ body {
   }
 
   [type="earrings-intro"] {
-    background-image: url("./attachments/lazi-earrings.PNG");
+    background-image: linear-gradient();
+    background-clip: inherit;
   }
   
   [type="bracelets-intro"] {
@@ -223,16 +230,16 @@ body {
 
 
 .social-menu {
-  padding-bottom: 10vh;
   display: flex;
   flex-direction: row;
   justify-content: center;
+  z-index: 200;
 }
 
 .social-menu a {
   padding-left: 15px;
   padding-right: 15px;
-  color: rgba(185, 179, 170, 0.712);
+  color: rgba(255, 250, 241, 0.8);
 }
 
 .social-menu a:hover {
@@ -245,7 +252,9 @@ body {
 }
 
 [type$="-intro"] {
-  color: rgb(56, 44, 25);
+  width: 100%;
+  padding-top: 60px;
+  color: rgb(255, 250, 241);
   font-family: 'Ovo', serif;
   font-weight: lighter;
   display: flex;
@@ -253,19 +262,22 @@ body {
   align-items: center;
   justify-content: space-evenly;
   min-height: 34vh;
+  height: 34vh;
+  text-align: center;
 }
 
 
 .header {
-  font-size: 250%;
+  font-size: 270%;
   font-family: 'Architects Daughter', cursive;
+  z-index: 200;
 }
 
 .intro {
-  font-family: 'Poiret One', cursive;
-  /* font-family: 'Questrial', sans-serif; */
+  font-family: 'Questrial', sans-serif; 
   font-size: 150%;
   font-weight: lighter;
+  z-index: 200;
 }
 
 
@@ -279,7 +291,7 @@ img {
   font-family: 'Ovo', serif;
   font-weight: lighter;
   font-size: 190%;
-  color: rgb(192, 163, 127);
+  color: rgb(197, 185, 167);
   justify-self: center;
 }
 
@@ -294,4 +306,39 @@ a:visited {
 
 a:active {
   text-decoration: none;
+}
+
+.overlay {
+  position: fixed;
+  width: 100%; 
+  height: inherit; 
+  top: 0;
+  left: 0;
+  right: 0; 
+  background: linear-gradient(to right, rgba(0,0,0,0.6), rgba(0, 0, 0, 0.1)); 
+  z-index: 100;
+
+}
+.overlays {
+  position: absolute;
+  width: 100%; 
+  height: inherit; 
+  top: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(to right, rgba(0,0,0,0.6), rgba(0, 0, 0, 0.3)); 
+  z-index: 100;
+
+}
+
+@media screen and (max-width: 1399px){
+  .social-menu{
+    padding-bottom: 10vh;
+  }
+}
+
+@media screen and (min-width: 1400px){
+  .social-menu{
+    padding-bottom: 5vh;
+  }
 }
