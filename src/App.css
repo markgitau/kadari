@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Questrial&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Ovo&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
 body {
   margin: 0;
   padding: 0;
@@ -12,6 +13,7 @@ body {
   position: fixed;
   width: 100%;
   background: rgba(83, 71, 47, 0.534);
+  backdrop-filter: blur(3px);
   height: 7.957559681697613vh;
 
 }
@@ -31,14 +33,18 @@ body {
 .nav-links li {
   
   text-decoration: none;
-  color:white;
+  color:rgb(219, 214, 208);
+  font-size: 127%;
+  font-family: 'Questrial', sans-serif;
 }
 
 .mobile  {
   display: flex;
   height: 100%;
+  width: 100%;
   color: white;
   align-items: center;
+  justify-content: space-evenly;
   
   
 }
@@ -76,7 +82,8 @@ body {
 .drawer-links {
   height: 100%;
   background: rgba(160, 153, 139, 0.336);
-  box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(6px);
+  box-shadow: 2px 0px 15px rgba(0, 0, 0, 0.5);
   position: fixed;
   margin: 0;
   top: 0;
@@ -101,7 +108,10 @@ body {
   padding-bottom: 15px;
   text-decoration: none;
   list-style: none;
+  font-family: 'Questrial', sans-serif;
+  color: rgb(24, 18, 9);
 }
+
 
 .drawer-links.open {
   transform: translateX(0);
@@ -116,6 +126,7 @@ body {
   width: 100%;
   height:100%;
   background-color: rgba(0, 0, 0, 0.2);
+
   z-index: 100;
   transition: background-color 0.4s ease-out;
 }
@@ -128,6 +139,15 @@ body {
   .nav-links {
     display: none;
   }
+
+  .button {
+    position: fixed;
+    display: flex;
+    top: 0;
+    right: 0;
+    z-index: 400;
+  }
+
   [type="earrings-intro"] {
     background-image: url("./attachments/WhatsApp\ Image\ 2019-01-11\ at\ 13.05.11\ \(1\).jpeg");
   }
@@ -158,9 +178,13 @@ body {
   .mobile {
     display: none;
   }
+  
+  .button {
+    display: none;
+  }
 
   [type="earrings-intro"] {
-    background-image: url("./attachments/WhatsApp\ Image\ 2019-01-11\ at\ 13.05.11\ \(1\).jpeg");
+    background-image: url("./attachments/lazi-earrings.PNG");
   }
   
   [type="bracelets-intro"] {
@@ -186,7 +210,7 @@ body {
 }
 
 .home {
-  background-image: url("./attachments/IMG_9150-compressed.png"); 
+  background-image: url("./attachments/IMG_9307-compressed.CR2"); 
   background-size: cover;
   height: 100vh;
   display: flex;
@@ -195,6 +219,8 @@ body {
   justify-content: center;
   align-items: center;
 }
+
+
 
 .social-menu {
   padding-bottom: 10vh;
@@ -206,7 +232,7 @@ body {
 .social-menu a {
   padding-left: 15px;
   padding-right: 15px;
-  color: rgb(153, 145, 134);
+  color: rgba(185, 179, 170, 0.712);
 }
 
 .social-menu a:hover {
@@ -219,28 +245,29 @@ body {
 }
 
 [type$="-intro"] {
-  color: whitesmoke;
+  color: rgb(56, 44, 25);
   font-family: 'Ovo', serif;
   font-weight: lighter;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-evenly;
+  min-height: 34vh;
 }
-
 
 
 .header {
   font-size: 250%;
+  font-family: 'Architects Daughter', cursive;
 }
 
-.intro, .extra {
-  font-family: 'Questrial', sans-serif;
-  font-size: 60%;
+.intro {
+  font-family: 'Poiret One', cursive;
+  /* font-family: 'Questrial', sans-serif; */
+  font-size: 150%;
   font-weight: lighter;
 }
-.intro {
-  font-size: 70%;
-}
+
 
 img {
   max-width: 70%;
@@ -253,6 +280,7 @@ img {
   font-weight: lighter;
   font-size: 190%;
   color: rgb(192, 163, 127);
+  justify-self: center;
 }
 
 a:link {

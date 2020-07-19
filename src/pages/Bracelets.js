@@ -12,7 +12,7 @@ import zuri from '../attachments/zuri-bracelet.jpeg';
 function Bracelets (){
     return(
         <div>
-            <Introduction type="bracelets-intro" name="Bracelets" intro="Hand Made Bracelets" extra="Giving you a new style." />
+            <Introduction type="bracelets-intro" name="Bracelets" intro="Giving you a new style." />
             <Product className="kambe" name ="Kambe Bracelet" description="Men's brass bracelet" price="KES 1000" image={kambe} />
             <Product className="kasandi" name ="Kasandi Bracelet" description="Asymmetrical textured brass bracelet" price="KES 700" image={kasandi} />
             <Product className="mueni" name ="Mueni Bracelet" description="Brass bracelet with aluminium wire detail" price="KES 800" image={mueni} />

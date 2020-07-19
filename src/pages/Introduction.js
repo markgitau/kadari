@@ -10,9 +10,6 @@ function Introduction ({type, name, intro, extra}){
             <p className="intro">
                 {intro}
             </p>
-            <p className="extra">
-                {extra}
-            </p>
         </div>
     );
 }

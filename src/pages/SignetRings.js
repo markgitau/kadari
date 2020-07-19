@@ -6,7 +6,7 @@ import Introduction from './Introduction';
 function SignetRings (){
     return(
         <div>
-            <Introduction type="signet-intro" name="Signet Rings" intro="Hand made Signet Rings" extra="." />
+            <Introduction type="signet-intro" name="Signet Rings" intro="Hand made Signet Rings" />
        
         </div>
     );

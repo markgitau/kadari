@@ -6,7 +6,7 @@ import SocialMenu from './SocialMenu.js';
 function Home (){
     return (
         <main className="home">
-            <Introduction type="home-intro" intro="Bling it on!" extra="Hand-made timeless and tasteful jewelry." />
+            <Introduction type="home-intro" name="Bling it on!" intro="Ethically inspired, hand-made, timeless, and tasteful jewelry." />
             <div className="space" />
             <SocialMenu />
 

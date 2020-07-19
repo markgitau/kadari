@@ -19,7 +19,7 @@ import tumaini from '../attachments/tumaini-earrings.PNG';
 function Earrings (){
     return(
         <div>
-            <Introduction type="earrings-intro" name="Earrings" intro="Hand Made Earrings" extra="Find your perfect pair." />
+            <Introduction type="earrings-intro" name="Earrings" intro="Find your perfect pair." />
             <Product className="pendo" name ="Pendo Stud Earrings" description="Cowhorn and brass stud earrings" price="KES 650" image={pendo} />
             <Product className="duara" name ="Duara Earrings" description="Brass earrings" price="KES 650" image={duara} />
             <Product className="fahari" name ="Fahari Earrings" description="Brass earrings" price="KES 800" image={fahari} />

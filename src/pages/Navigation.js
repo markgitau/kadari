@@ -16,6 +16,8 @@ const Navigation = props => (
                 </Link>
             </div>
             <div className="space"></div>
+        </div>
+        <div className="button">
             <Button click={props.drawerClickHandler} show={props.show}/>
         </div>
         <nav>
