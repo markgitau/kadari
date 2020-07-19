@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom';
 import Necklaces from './pages/Necklaces.js';
 import Bracelets from './pages/Bracelets.js';
 import Earrings from './pages/Earrings.js';
@@ -17,8 +17,9 @@ import Backdrop from './pages/Backdrop';
 class App extends Component {
 
   state = {
-    sideDrawerOpen: false
+    sideDrawerOpen: false,
   };
+
 
   drawerToggleClickHandler = () => {
     this.setState((prevState) => {
@@ -33,6 +34,7 @@ class App extends Component {
  
   render(){
 
+
     return (
 
       <Router>
@@ -42,6 +44,9 @@ class App extends Component {
         <SideDrawer show={this.state.sideDrawerOpen} click={this.backdropClickHandler}/>
         <Backdrop click={this.backdropClickHandler} show={this.state.sideDrawerOpen}/>
         <Switch>
+        <Route exact path="/kadari">
+          <Redirect to="/" />
+        </Route>
         <Route path="/" exact component={Home}/>
         <Route path="/earrings" exact component={Earrings}/>
         <Route path="/necklaces" exact component={Necklaces}/>
