@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3b66aa9483a19e16aa74019827ed4a6e",
+    "revision": "a36ea56dc6744c46c5e42936e41f96a8",
     "url": "/kadari/index.html"
   },
   {
-    "revision": "46cb09d231c264167fe1",
-    "url": "/kadari/static/css/main.e63e0913.chunk.css"
+    "revision": "ad46e463ae0f11b9a6f6",
+    "url": "/kadari/static/css/main.11137623.chunk.css"
   },
   {
     "revision": "54a53809a19a2aab68e1",
@@ -16,20 +16,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/kadari/static/js/2.629c1a38.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "46cb09d231c264167fe1",
-    "url": "/kadari/static/js/main.14f4827b.chunk.js"
+    "revision": "ad46e463ae0f11b9a6f6",
+    "url": "/kadari/static/js/main.cb77a7ef.chunk.js"
   },
   {
     "revision": "dae23637a76432a76f7b",
     "url": "/kadari/static/js/runtime-main.b637e1e7.js"
   },
   {
-    "revision": "761c9310f56b258b4dc8012999779e26",
-    "url": "/kadari/static/media/IMG_9307-compressed.761c9310.CR2"
+    "revision": "4a3d0619c50e40811efcdffd188083fe",
+    "url": "/kadari/static/media/IMG_9150-compressed.4a3d0619.png"
   },
   {
-    "revision": "bc58ad09434d357be2ff35d9396bb05f",
-    "url": "/kadari/static/media/WhatsApp Image 2019-01-11 at 13.03.41 (2).bc58ad09.jpeg"
+    "revision": "761c9310f56b258b4dc8012999779e26",
+    "url": "/kadari/static/media/IMG_9307-compressed.761c9310.CR2"
   },
   {
     "revision": "ed490f5175b50a91ff2dddd4a37a0a8e",

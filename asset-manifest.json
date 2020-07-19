@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/kadari/static/css/main.e63e0913.chunk.css",
-    "main.js": "/kadari/static/js/main.14f4827b.chunk.js",
-    "main.js.map": "/kadari/static/js/main.14f4827b.chunk.js.map",
+    "main.css": "/kadari/static/css/main.11137623.chunk.css",
+    "main.js": "/kadari/static/js/main.cb77a7ef.chunk.js",
+    "main.js.map": "/kadari/static/js/main.cb77a7ef.chunk.js.map",
     "runtime-main.js": "/kadari/static/js/runtime-main.b637e1e7.js",
     "runtime-main.js.map": "/kadari/static/js/runtime-main.b637e1e7.js.map",
     "static/js/2.629c1a38.chunk.js": "/kadari/static/js/2.629c1a38.chunk.js",
     "static/js/2.629c1a38.chunk.js.map": "/kadari/static/js/2.629c1a38.chunk.js.map",
     "index.html": "/kadari/index.html",
-    "precache-manifest.f3a65d84f41dcb64e95c11918a9496e1.js": "/kadari/precache-manifest.f3a65d84f41dcb64e95c11918a9496e1.js",
+    "precache-manifest.40d1f8fc6fc30399fffbd8f7ecca40ad.js": "/kadari/precache-manifest.40d1f8fc6fc30399fffbd8f7ecca40ad.js",
     "service-worker.js": "/kadari/service-worker.js",
-    "static/css/main.e63e0913.chunk.css.map": "/kadari/static/css/main.e63e0913.chunk.css.map",
+    "static/css/main.11137623.chunk.css.map": "/kadari/static/css/main.11137623.chunk.css.map",
     "static/js/2.629c1a38.chunk.js.LICENSE.txt": "/kadari/static/js/2.629c1a38.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/kadari/static/media/WhatsApp Image 2019-01-11 at 13.03.41 (2).bc58ad09.jpeg",
+    "static/media/App.css": "/kadari/static/media/IMG_9307-compressed.761c9310.CR2",
     "static/media/amani-ring.PNG": "/kadari/static/media/amani-ring.ed490f51.PNG",
     "static/media/duara-earrings.jpeg": "/kadari/static/media/duara-earrings.47aca2ca.jpeg",
     "static/media/fahari-earrings.PNG": "/kadari/static/media/fahari-earrings.3653b3e2.PNG",
@@ -41,7 +41,7 @@
   "entrypoints": [
     "static/js/runtime-main.b637e1e7.js",
     "static/js/2.629c1a38.chunk.js",
-    "static/css/main.e63e0913.chunk.css",
-    "static/js/main.14f4827b.chunk.js"
+    "static/css/main.11137623.chunk.css",
+    "static/js/main.cb77a7ef.chunk.js"
   ]
 }
