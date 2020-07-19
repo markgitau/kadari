@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/kadari/static/css/main.a9e923cc.chunk.css",
-    "main.js": "/kadari/static/js/main.56245878.chunk.js",
-    "main.js.map": "/kadari/static/js/main.56245878.chunk.js.map",
+    "main.css": "/kadari/static/css/main.2956cf99.chunk.css",
+    "main.js": "/kadari/static/js/main.6fda4014.chunk.js",
+    "main.js.map": "/kadari/static/js/main.6fda4014.chunk.js.map",
     "runtime-main.js": "/kadari/static/js/runtime-main.b637e1e7.js",
     "runtime-main.js.map": "/kadari/static/js/runtime-main.b637e1e7.js.map",
-    "static/js/2.89a43c02.chunk.js": "/kadari/static/js/2.89a43c02.chunk.js",
-    "static/js/2.89a43c02.chunk.js.map": "/kadari/static/js/2.89a43c02.chunk.js.map",
+    "static/js/2.629c1a38.chunk.js": "/kadari/static/js/2.629c1a38.chunk.js",
+    "static/js/2.629c1a38.chunk.js.map": "/kadari/static/js/2.629c1a38.chunk.js.map",
     "index.html": "/kadari/index.html",
-    "precache-manifest.0e22c1e378bf94e47d75336bb142b5e0.js": "/kadari/precache-manifest.0e22c1e378bf94e47d75336bb142b5e0.js",
+    "precache-manifest.4856c644dc2a2df55a430fb25f990c49.js": "/kadari/precache-manifest.4856c644dc2a2df55a430fb25f990c49.js",
     "service-worker.js": "/kadari/service-worker.js",
-    "static/css/main.a9e923cc.chunk.css.map": "/kadari/static/css/main.a9e923cc.chunk.css.map",
-    "static/js/2.89a43c02.chunk.js.LICENSE.txt": "/kadari/static/js/2.89a43c02.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/kadari/static/media/IMG_9150-compressed.9bfb5376.CR2",
+    "static/css/main.2956cf99.chunk.css.map": "/kadari/static/css/main.2956cf99.chunk.css.map",
+    "static/js/2.629c1a38.chunk.js.LICENSE.txt": "/kadari/static/js/2.629c1a38.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/kadari/static/media/WhatsApp Image 2019-01-11 at 13.05.11 (1).03842fdb.jpeg",
     "static/media/amani-ring.PNG": "/kadari/static/media/amani-ring.ed490f51.PNG",
     "static/media/duara-earrings.jpeg": "/kadari/static/media/duara-earrings.47aca2ca.jpeg",
     "static/media/fahari-earrings.PNG": "/kadari/static/media/fahari-earrings.3653b3e2.PNG",
@@ -40,8 +40,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.b637e1e7.js",
-    "static/js/2.89a43c02.chunk.js",
-    "static/css/main.a9e923cc.chunk.css",
-    "static/js/main.56245878.chunk.js"
+    "static/js/2.629c1a38.chunk.js",
+    "static/css/main.2956cf99.chunk.css",
+    "static/js/main.6fda4014.chunk.js"
   ]
 }
