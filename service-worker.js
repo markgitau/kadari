@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/kadari/precache-manifest.58c94a2e6c18edb5a1e9b4b27e1a5c7d.js"
+  "/kadari/precache-manifest.80ae0d5910c665f7fe0940a7753afaa5.js"
 );
 
 self.addEventListener('message', (event) => {
