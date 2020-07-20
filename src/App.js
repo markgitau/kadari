@@ -43,18 +43,18 @@ class App extends Component {
         <Navigation drawerClickHandler={this.drawerToggleClickHandler} show={this.state.sideDrawerOpen}/>
         <SideDrawer show={this.state.sideDrawerOpen} click={this.backdropClickHandler}/>
         <Backdrop click={this.backdropClickHandler} show={this.state.sideDrawerOpen}/>
-        <Switch>
-        <Route exact path="/kadari">
-          <Redirect to="/" />
-        </Route>
-        <Route path="/" exact component={Home}/>
-        <Route path="/earrings" exact component={Earrings}/>
-        <Route path="/necklaces" exact component={Necklaces}/>
-        <Route path="/bracelets" exact component={Bracelets}/>
-        <Route path="/rings" exact component={Rings}/>
-        <Route path="/signetrings" exact component={SignetRings}/>
-        <Route path="/personalized" exact component={PersonalizedBracelets}/>
-        </Switch>
+            <Switch>
+              <Route exact path="/kadari">
+                <Redirect to="/" />
+              </Route>
+              <Route path="/" exact component={Home}/>
+              <Route path="/earrings" exact component={Earrings}/>
+              <Route path="/necklaces" exact component={Necklaces}/>
+              <Route path="/bracelets" exact component={Bracelets}/>
+              <Route path="/rings" exact component={Rings}/>
+              <Route path="/signetrings" exact component={SignetRings}/>
+              <Route path="/personalized" exact component={PersonalizedBracelets}/>
+            </Switch>
       </div>
       </Router>
     );

@@ -33,7 +33,7 @@ function Earrings (){
                 <Product className="sifa-earrings" name ="Sifa Earrings" description="Brass earrings" price="KES 650" image={sifa} />
                 <Product className="simba-earrings" name ="Simba Earrings" description="Brass earrings" price="KES 800" image={simba} />
                 <Product className="tawi-earrings" name ="Tawi Earrings" description="Brass earrings" price="KES 650" image={tawi} />
-                <Product className="tumaini-earrings" name ="Tumainini Earrings" description="Black cowhorn and Brass earrings" price="KES 650" image={tumaini} />
+                <Product className="tumaini-earrings" name ="Tumaini Earrings" description="Black cowhorn and Brass earrings" price="KES 650" image={tumaini} />
             </div>
         </div>
     );

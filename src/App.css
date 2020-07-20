@@ -18,7 +18,19 @@
   backdrop-filter: blur(3px);
   height: 7.957559681697613vh;
   z-index: 300;
+  box-shadow: 2px 0px 15px rgba(0, 0, 0, 0.5);
+  animation: toolbar-load 500ms;
 
+}
+
+
+@keyframes toolbar-load {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 
 .nav-links {
@@ -36,18 +48,18 @@
 .nav-links li {
   
   text-decoration: none;
-  color:rgb(219, 214, 208);
   font-size: 127%;
   font-family: 'Questrial', sans-serif;
 }
 
 .nav-links a:hover {
-  transform: translateY(-1px);
-  transition: transform 0.5s ease-in;
+  color: rgb(255, 255, 255);
+  transition: color 0.5s ease-in;
+  
 }
 .nav-links a:not(:hover) {
-  transform: translateY(1px);
-  transition: transform 0.5s ease-out;
+  color:rgb(218, 213, 208);
+  transition: color 0.5s ease-out;
 }
 
 .mobile  {
@@ -245,6 +257,7 @@
   flex-direction: row;
   justify-content: center;
   z-index: 200;
+  animation: toolbar-load 500ms;
 }
 
 .social-menu a {
@@ -278,11 +291,21 @@
   text-align: center;
 }
 
+@keyframes intro-load {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
 
 .header {
   font-size: 270%;
   font-family: 'Architects Daughter', cursive;
   z-index: 200;
+  animation: intro-load 700ms;
 }
 
 .intro {
@@ -290,6 +313,7 @@
   font-size: 150%;
   font-weight: lighter;
   z-index: 200;
+  animation: intro-load 700ms;
 }
 
 
@@ -297,6 +321,20 @@ img {
   max-width: 70%;
   max-height: 70vh;
   height: auto;
+  box-shadow: 2px 2px 15px rgba(36, 29, 20, 0.651);
+  animation: img-load 230ms ease-out;
+}
+
+@keyframes img-load {
+  0% {
+    max-width: 40%;
+    transform: translateY(-6%);
+  }
+
+  100% {
+    transform: translateY(0);
+    max-width: 70%;
+  }
 }
 
 .mobile-header {
@@ -361,6 +399,15 @@ a:active {
   background: rgb(168, 151, 119);
 }
 
+@keyframes comp-load {
+  0% {
+    transform: translateY(-6%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
 [class$="bracelets"] {
   margin-top: 0;
   padding: 0;
@@ -387,12 +434,14 @@ a:active {
 
 [type="name"] {
   font-size: 180%;
-  font-family: 'Ovo', serif;
+  font-family: 'Architects Daughter', cursive;
   color: rgb(56, 46, 34);
   padding-bottom: 8px;
+  animation: comp-load 700ms ease-out;
 }
 
 [type="description"] {
+  animation: comp-load 700ms ease-out;
   font-size: 110%;
   font-family: 'Questrial', sans-serif;
   color: rgb(56, 46, 34);
@@ -401,6 +450,7 @@ a:active {
 }
 
 [type="price"] {
+  animation: comp-load 700ms ease-out;
   font-size: 120%;
   font-family: 'Questrial', sans-serif;
   color: rgb(56, 46, 34);
