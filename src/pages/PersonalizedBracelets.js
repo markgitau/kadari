@@ -1,8 +1,8 @@
-import React, { Suspense, lazy } from 'react';
-const Product = lazy(() => import('./Product.js'));
+import React, { lazy } from 'react';
 import '../App.css';
 import Introduction from './Introduction';
 import ukariri from '../attachments/ukariri-mantra-bracelet.jpg';
+const Product = lazy(() => import('./Product.js'));
 
 
 

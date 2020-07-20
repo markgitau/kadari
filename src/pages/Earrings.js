@@ -1,5 +1,4 @@
-import React, { Suspense, lazy } from 'react';
-const Product = lazy(() => import('./Product.js'));
+import React, { lazy } from 'react';
 import '../App.css';
 import Introduction from './Introduction';
 import pendo from '../attachments/pendo-stud-earrings.PNG';
@@ -15,6 +14,7 @@ import sifa from '../attachments/sifa-earrings.PNG';
 import simba from '../attachments/simba-earrings.PNG';
 import tawi from '../attachments/tawi-earrings.png';
 import tumaini from '../attachments/tumaini-earrings.PNG';
+const Product = lazy(() => import('./Product.js'));
 
 function Earrings (){
     return(
