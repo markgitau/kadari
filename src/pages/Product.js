@@ -13,7 +13,7 @@ function Product({className, name, description, price, image}) {
         <p type="description">
             {description}
         </p>
-
+        
         <img src={image} alt={name}/>
 
         <p type="price">

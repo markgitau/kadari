@@ -1,5 +1,5 @@
-import React from 'react';
-import Product from './Product.js';
+import React, { Suspense, lazy } from 'react';
+const Product = lazy(() => import('./Product.js'));
 import '../App.css';
 import Introduction from './Introduction';
 import pendo from '../attachments/pendo-stud-earrings.PNG';
@@ -20,7 +20,7 @@ function Earrings (){
     return(
         <div>
             <Introduction type="earrings-intro" name="Earrings" intro="Find your perfect pair."/>
-            <div className="earrings">
+            <div className="earrings"> 
                 <Product className="pendo-earrings" name ="Pendo Stud Earrings" description="Cowhorn and brass stud earrings" price="KES 650" image={pendo} />
                 <Product className="duara-earrings" name ="Duara Earrings" description="Brass earrings" price="KES 650" image={duara} />
                 <Product className="fahari-earrings" name ="Fahari Earrings" description="Brass earrings" price="KES 800" image={fahari} />

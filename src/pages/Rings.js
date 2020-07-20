@@ -1,5 +1,5 @@
-import React from 'react';
-import Product from './Product.js';
+import React, { Suspense, lazy } from 'react';
+const Product = lazy(() => import('./Product.js'));
 import '../App.css';
 import Introduction from './Introduction';
 import amani from '../attachments/amani-ring.PNG';

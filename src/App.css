@@ -54,12 +54,18 @@
 
 .nav-links a:hover {
   color: rgb(255, 255, 255);
-  transition: color 0.5s ease-in;
+  transition: color 0.17s ease-in;
   
 }
 .nav-links a:not(:hover) {
   color:rgb(218, 213, 208);
-  transition: color 0.5s ease-out;
+  transition: color 0.17s ease-out;
+}
+
+.nav-links a:focus {
+  color: rgb(255, 255, 255);
+  font-size: 102%;
+  transition: font-size 0.17s ease-out;
 }
 
 .mobile  {
@@ -175,32 +181,6 @@
     z-index: 400;
     height: 7.957559681697613vh;
   }
-
-  [type="earrings-intro"] {
-    background-image: url("./attachments/lazi-earrings.PNG");
-    background-color: rgba(0, 0, 0, 0.5);
-  }
-  
-  [type="bracelets-intro"] {
-    background-image: url("./attachments/IMG_9150-compressed.png");
-  }
-  
-  [type="necklaces-intro"] {
-    background-image: url("./attachments/kumi-kumi-necklace.PNG");
-  }
-  
-  [type="signet-intro"] {
-    background-image: url("./attachments/amani-ring.PNG");
-  }
-  
-  [type="personalized-intro"] {
-    background-image: url("./attachments/ukariri-mantra-bracelet.jpg");
-  }
-  
-  [type="rings-intro"] {
-    background-image: url("./attachments/amani-ring.PNG");
-  }
-
 }
 
 @media screen and (min-width: 769px){
@@ -211,32 +191,43 @@
   .button {
     display: none;
   }
+}
 
-  [type="earrings-intro"] {
-    background-image: linear-gradient();
-    background-clip: inherit;
-  }
-  
-  [type="bracelets-intro"] {
-    background-image: linear-gradient(rgba(25, 66, 66, 0.521), rgba(67, 165, 172, 0.705));
-  }
-  
-  [type="necklaces-intro"] {
-    background-image: linear-gradient();
-  }
-  
-  [type="signet-intro"] {
-    background-image: linear-gradient();
-  }
-  
-  [type="personalized-intro"] {
-    background-image: linear-gradient();
-  }
-  
-  [type="rings-intro"] {
-    background-image: linear-gradient();
-  }
-  
+
+[type="earrings-intro"] {
+  background-image: url("./attachments/lazi-earrings.PNG");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+[type="bracelets-intro"] {
+  background-image: url("./attachments/IMG_9150-compressed.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+[type="necklaces-intro"] {
+  background-image: url("./attachments/kumi-kumi-necklace.PNG");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+[type="signet-intro"] {
+  background-image: url("./attachments/amani-ring.PNG");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+[type="personalized-intro"] {
+  background-image: url("./attachments/ukariri-mantra-bracelet.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+[type="rings-intro"] {
+  background-image: url("./attachments/amani-ring.PNG");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .home {
@@ -321,18 +312,17 @@ img {
   max-width: 70%;
   max-height: 70vh;
   height: auto;
-  box-shadow: 2px 2px 15px rgba(36, 29, 20, 0.651);
-  animation: img-load 230ms ease-out;
+  animation: img-load 730ms ease-out;
+  box-shadow: 2px 0px 15px rgba(0, 0, 0, 0.5);
+  
 }
 
 @keyframes img-load {
   0% {
-    max-width: 40%;
     transform: translateY(-6%);
   }
 
   100% {
-    transform: translateY(0);
     max-width: 70%;
   }
 }
@@ -456,4 +446,19 @@ a:active {
   color: rgb(56, 46, 34);
   padding-bottom: 8px;
   padding-top: 8px;
+}
+
+.loading {
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Questrial', sans-serif;
+  font-size: 50px;
+  background-color: rgba(170, 157, 129, 0.596);
+
 }

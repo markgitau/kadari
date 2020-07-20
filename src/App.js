@@ -1,16 +1,17 @@
-import React, { Component } from 'react';
+import React, { Component, Suspense, lazy } from 'react';
 import './App.css';
 import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom';
-import Necklaces from './pages/Necklaces.js';
-import Bracelets from './pages/Bracelets.js';
-import Earrings from './pages/Earrings.js';
-import Rings from './pages/Rings.js';
-import SignetRings from './pages/SignetRings.js';
-import PersonalizedBracelets from './pages/PersonalizedBracelets.js';
-import Navigation from './pages/Navigation';
-import Home from './pages/Home';
-import SideDrawer from './pages/SideDrawer';
-import Backdrop from './pages/Backdrop';
+const Necklaces = lazy(() => import('./pages/Necklaces.js'));
+const Bracelets = lazy(() => import('./pages/Bracelets.js'));
+const Earrings = lazy(() => import('./pages/Earrings.js'));
+const Rings = lazy(() => import('./pages/Rings.js'));
+const SignetRings = lazy(() => import('./pages/SignetRings.js'));
+const PersonalizedBracelets = lazy(() => import('./pages/PersonalizedBracelets.js'));
+const Navigation = lazy(() => import('./pages/Navigation'));
+const Home = lazy(() => import('./pages/Home'));
+const SideDrawer = lazy(() => import('./pages/SideDrawer'));
+const Backdrop = lazy(() => import('./pages/Backdrop'));
+
 
 
 
@@ -39,7 +40,7 @@ class App extends Component {
 
       <Router>
       <div className="app" style={{height: "100%"}}>
-        
+        <Suspense fallback={<div className="loading">Loading...</div>}>
         <Navigation drawerClickHandler={this.drawerToggleClickHandler} show={this.state.sideDrawerOpen}/>
         <SideDrawer show={this.state.sideDrawerOpen} click={this.backdropClickHandler}/>
         <Backdrop click={this.backdropClickHandler} show={this.state.sideDrawerOpen}/>
@@ -55,6 +56,7 @@ class App extends Component {
               <Route path="/signetrings" exact component={SignetRings}/>
               <Route path="/personalized" exact component={PersonalizedBracelets}/>
             </Switch>
+            </Suspense>
       </div>
       </Router>
     );
