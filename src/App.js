@@ -1,6 +1,6 @@
 import React, { Component, Suspense, lazy } from 'react';
 import './App.css';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom';
 const Necklaces = lazy(() => import('./pages/Necklaces.js'));
 const Bracelets = lazy(() => import('./pages/Bracelets.js'));
 const Earrings = lazy(() => import('./pages/Earrings.js'));
@@ -45,6 +45,9 @@ class App extends Component {
         <SideDrawer show={this.state.sideDrawerOpen} click={this.backdropClickHandler}/>
         <Backdrop click={this.backdropClickHandler} show={this.state.sideDrawerOpen}/>
             <Switch>
+              <Route exact path="/kadari">
+                <Redirect to="/" />
+              </Route>
               <Route path="/" exact component={Home}/>
               <Route path="/earrings" exact component={Earrings}/>
               <Route path="/necklaces" exact component={Necklaces}/>
