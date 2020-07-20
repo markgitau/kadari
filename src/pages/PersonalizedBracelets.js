@@ -12,9 +12,7 @@ function PersonalizedBracelets (){
         <div>
             <Introduction type="personalized-intro" name="Personalized" intro="Made just for you." />
             <div className="personalized">
-                <Suspense>
-                    <Product classname="ukariri" name ="Ukariri Mantra Bracelet" description="Brass cuff bracelet engraved with your favorite mantra" price="KES 1200" image={ukariri} />
-                </Suspense>
+                <Product classname="ukariri" name ="Ukariri Mantra Bracelet" description="Brass cuff bracelet engraved with your favorite mantra" price="KES 1200" image={ukariri} />
             </div>
         </div>
     );
